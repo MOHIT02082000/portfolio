@@ -1,289 +1,686 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 <head>
+  <title> Personal Portfolio</title>
   <meta charset="utf-8">
-  <title>Mohit Gandhi</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <!-- font awesome -->
-  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-  <!-- main css -->
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/skins/color-1.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- header start-->
+
+  <!-- Page Loader Start -->
+  <div class="page-loader">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <!-- Page Loader End -->
+
+ <!-- Background Circles Start -->
+ <div class="bg-circles">
+   <div class="circle-1"></div>
+   <div class="circle-2"></div>
+   <div class="circle-3"></div>
+   <div class="circle-4"></div>
+   <div class="circle-5"></div>
+ </div>
+ <!-- Background Circles End -->
+
+<!-- Overlay Start -->
+<div class="overlay">
+</div>
+<!-- Overlay End -->
+
+<!-- Main Start -->
+<div class="main hidden">
+
+  <!-- Header Start -->
   <header class="header">
     <div class="container">
-      <div class="row justify-content-between">
-        <div class="logo">
-          <a href="index.html">M</a>
-        </div>
-        <div class="hamburger-btn outer-shadow hover-in-shadow">
+      <div class="row flex-end">
+        <button type="button" class="nav-toggler">
           <span></span>
-        </div>
+        </button>
+        <nav class="nav">
+          <div class="nav-inner">
+            <ul>
+              <li><a href="#home" class="nav-item link-item">Home</a></li>
+              <li><a href="#about" class="nav-item link-item">About</a></li>
+              <li><a href="#projects" class="nav-item link-item">Projects</a></li>
+              <li><a href="#research" class="nav-item link-item">Research</a></li>
+              <li><a href="#awards" class="nav-item link-item">Awards</a></li>
+              <li><a href="#contact" class="nav-item link-item">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
       </div>
     </div>
   </header>
-  <!--header end-->
+  <!-- Header End -->
 
-  <!-- navigation menu start-->
-  <nav class="nav-menu">
-    <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
-      <div class="nav-menu-inner">
-        <ul>
-          <li><a href="#" class="inner-shadow active">Home</a></li>
-          <li><a href="#" class="outer-shadow hover-in-shadow">About</a></li>
-          <li><a href="#" class="outer-shadow hover-in-shadow">Publications</a></li>
-          <li><a href="#" class="outer-shadow hover-in-shadow">Projects</a></li>
-          <li><a href="#" class="outer-shadow hover-in-shadow">Work Experience</a></li>
-          <li><a href="#" class="outer-shadow hover-in-shadow">Achievements</a></li>
-          <li><a href="#" class="outer-shadow hover-in-shadow">Contact</a></li>        
-        </ul>
-      </div>
-  </nav>
-
-  <!-- navigation menu end -->
-
-  <!-- Home Section-->
-  <section class="home-section section">
-    <!-- effect wrap start -->
-    <div class="effect-wrap">
-      <div class="effect effect-1">
-      </div>
-      <div class="effect effect-2">
-        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div>
-        </div><div></div><div></div><div></div><div></div><div></div><div></div><div>
-        </div><div></div><div></div><div></div><div></div><div></div><div></div><div>
-        </div><div></div><div></div><div></div><div></div><div></div><div></div>
-      </div>
-      <div class="effect effect-3">  
-      </div>
-      <div class="effect effect-4">  
-        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-      </div>
-    </div>
-    <!-- effect wrap end -->
+  <!-- Home Section Start -->
+  <section class="home-section align-items-center" id="home">
     <div class="container">
-      <div class="row full-screen align-items-center">
+      <div class="row align-items-center">
         <div class="home-text">
-          <p>Hello</p>
-          <h2>I'm Mohit Gandhi</h2>
-          <h1>Computer Science Undergrad Student</h1>
-          <a href="#" class="btn-1 outer-shadow hover-in-shadow">More About Me</a>
+          <p>Hello, I'm</p>
+          <h1>Mohit Gandhi</h1>
+          <h2>Computer Science and Engineering Grad Student</h2>
+          <a href="#about" class="btn link-item">more about me</a>
         </div>
         <div class="home-img">
-          <div class="img-box inner-shadow">
-            <img src="img/profile-img.jpeg" class="outer-shadow" alt="profile-pic">
+          <div class="img-box">
+            <img src="img/profimg.png" alt="profile-img">
           </div>
         </div>
       </div>
     </div>
   </section>
+  <!-- Home Section End -->
 
-  <!-- Home Section-->
-
-  <!-- About Me -->
-  <section class="about-section section">
+  <!-- About Section Start -->
+  <section class="about-section sec-padding" id="about">
     <div class="container">
       <div class="row">
         <div class="section-title">
-          <h2 data-heading="main info">About Me</h2>
+          <h2>About Me</h2>
         </div>
       </div>
       <div class="row">
         <div class="about-img">
-          <div class="img-box inner-shadow">
-            <img src="img/Untitled design (8)1.png" class="outer-shadow" alt="profile-pic">
+          <div class="img-box">
+            <img src="img/abtimg2.png" alt="about img">
           </div>
-        <!-- Social Links-->
-        <div class="social-links">
-          <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-instagram"></i></a>
-          <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="about-text">
+          <p>Hi! I'm Mohit Gandhi, I am a Graduate Student at University at Buffalo for my Master's in Computer Science and Engineering.
+            I have done my Computer Engineering Undergraduate from Pimpri Chinchwad College of Engineering, Pune. I have my interests aligned towards Software Development, 
+            Full Stack Development, Machine Learning, Data Science.My keen interest is in Frontend-Development. 
+            My research interest is in Machine Learing and I am passionate about Data Science and the growing trends and new incoming technolgies in these fields. Recently I have been working on trending technolgies like ReactJS, AWS.</p>
+          <h3>skills</h3>
+          <div class="skills">
+            <div class="skill-item">C++</div>
+            <div class="skill-item">Python</div>
+            <div class="skill-item">HTML</div>
+            <div class="skill-item">Css</div>
+            <div class="skill-item">JavaScript</div>
+            <div class="skill-item">SQL</div>
+            <div class="skill-item">MySQL</div>
+            <div class="skill-item">NodeJS</div>
+            <div class="skill-item">ReactJS</div>
+            <div class="skill-item">MongoDB</div>
+            <div class="skill-item">Firebase</div>
+
+          </div>
+
+          <div class="about-tabs">
+            <button type="button" class="tab-item active" data-target="#education">education</button>
+            <button type="button" class="tab-item" data-target="#experience">experience</button>
+          </div>
+
+          <!-- Education Start -->
+          <div class="tab-content active" id="education">
+             <div class="timeline">
+               <div class="timeline-item">
+                 <span class="date">2022 - Present</span>
+                 <h4>Master's in Computer Science and Engineering <br><span>State University of New York, Buffalo.</span></h4>
+                 <p><u>Relevant Courses:</u> Analysis of Algorithms, Introduction to Machine Learning, Data Models and Query Language, Modern Networking Concepts.</p>
+               </div>
+               <div class="timeline-item">
+                <span class="date">2018 - 2022</span>
+                <h4>Bachelor of Engineering in Computer Engineering <br><span>Pimpri Chinchwad College of Engineering (Pune University).</span></h4>
+                <h5> CGPA : 9.34 </h5>
+                <p><u>Relevant Courses:</u> Data Structures, Software Engineering and Project Management, Theory of Computstion, Web Technology, Data Analysis and Data Mining, Aritificial Intelligence, Database Management, Embedded Systems and Internet of Things, Software Modeling and Design.</p>
+              </div>
+              <div class="timeline-item">
+                <span class="date">2016 - 2018</span>
+                <h4>Junior College<span><br>Ashoka Vidyalaya and Junior College, Pune</span></h4>
+                <h5> Percentage : 70% </h5>
+              </div>
+              <div class="timeline-item">
+                <span class="date">2011 - 2016</span>
+                <h4>High School<span><br>St. Ursula High School, Pune</span></h4>
+                <h5> Percentage : 91% </h5>
+              </div>
+             </div>
+          </div>
+          <!-- Education End -->
+
+          <!-- Experience Start -->
+          <div class="tab-content" id="experience">
+            <div class="timeline">
+              <div class="timeline-item">
+                <span class="date">Jan. 2022 - Jul. 2022</span>
+                <h4>Software Engineer Intern <br><span>Persistent Systems, Pune.</span></h4>
+                <p>Researched on cutting edge technologies such as NodeJs, SQL, JavaScript, AWS(Basics), Jenkins etc.
+                  <br>Collaborated with multiple teams of 5 individuals each and worked on the frontend element of Communication Project under
+                  Telecom BU to improve responsiveness.</p>
+              </div>
+              <div class="timeline-item">
+                <span class="date">Aug. 2021 - Nov. 2021</span>
+                <h4>Data Science Intern <br><span>Hamoye.com</span></h4>
+                <p>Performed Exploratory Data Analysis and studied Python principles required in Machine Learning, Regression, Classification, Data Cleaning.
+                  <br> Worked on capstone projects "Global Food Price Prediction" & "S&P Stock Prediction".
+                </p>
+              </div>
+              <div class="timeline-item">
+                <span class="date">Jun. 2021 - Aug. 2021</span>
+                <h4>Academic Intern <br><span>Persistent Systems, Pune</span></h4>
+                <p>Studied in-depth concepts of somputer science concepts like data structure, computer architecture, databases etc. through live virtual sessions.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Experience End -->
+          <a href="https://drive.google.com/file/d/1kv7RhFaMeUPDutY8veb-_1KDtI8V_3Xd/view?usp=sharing" target="_blank" class="btn">My Resume</a>
         </div>
       </div>
-        <!--Social Links-->
-        <div class="about-info">
-           <p><span>Hi! I'm Mohit Gandhi, a Computer Engineering Undergraduate</span> studying at Pimpri Chinchwad College of Engineering, Pune. I have been doing Web-Development since one and half year and my keen interest is in Frontend-Development. My research interest is in Machine Learing and I am passionate about Data Science. A few techs that I like working in is Python, JS, HTML/CSS, Figma.</p> 
-          <a href="Mohit_Gandhi_Resume.pdf" class="btn-1 outer-shadow hover-in-shadow ">Download Resume</a>
-        </div>
-      </div>
-      <!--About tabs-->
+    </div>
+  </section>
+  <!-- About Section End -->
+
+  <!-- -------------------------------------Projects ----------------------------->
+
+  <!-- Portfolio Section Start -->
+  <section class="portfolio-section sec-padding" id="projects">
+    <div class="container">
       <div class="row">
-        <div class="about-tabs">
-          <span class="tab-item outer-shadow active" data-target=".skills"><a href="#skills">Skills</a></span>
-          <span class="tab-item" data-target=".experience"><a href="#experience">Experience</a></span>
-          <span class="tab-item" data-target=".education"><a href="#education">Education</a></span>
-          
+        <div class="section-title">
+          <h2>Projects</h2>
         </div>
       </div>
-      <!--About tabs-->
+      <div class="row">
+        <!-- Project1 -->
+        <!-- Portfolio Item Start -->
+        <div class="portfolio-item">
+          <div class="portfolio-item-thumbnail">
+            <img src="img/portfolio/1.jpg" alt="project1 item thumb">
+          </div>
+          <h3 class="portfolio-item-title">Health Management System Using Edge Computing</h3>
+          <button type="button" class="btn view-project-btn">view project</button>
+          <div class="portfolio-item-details">
+            <div class="description">
+              <p> 
+                <b><u>Purpose:</u></b> During COVID pandemic there were no automated solutions for automating health parameters like heart/pulse rate, mask recognition and temperature. After the pandemic most of the offices will start for on-site work and schools will start, during this time we also need to take care if any employee or student is having correct body temperature and is wearing mask. Instead of hiring someone and risk their life to check temperature and mask for so much employees and students is tough task.
+                So to solve this problem we want to create an integrated 3D printed device which monitors their heart rate, temperature and checking are they wearing a mask using Edge Impulse model on AWS IoT Edukit and Embedded Camera.
+                <br>
+                <br>
+                <b><u>Working:</u></b> of the computer vision is done on the ESP32 Cam using the Deep Learning model. The Mask Detection model is trained with Edge Impulse and a custom dataset, and the resulting library is utilized in the ESP32 CAM.
+                Edge computing refers to the practice of executing all calculations immediately at the source of data rather than transferring data to an external server or cloud for processing.
+                <br>
+                Flow:
+                  <br>
+                  1)When a user stands in front of the device, the IR Distance sensor detects it and activates the camera, heart sensor, and temperature sensor.
+                  Read the image and infer it using the Mask Model.
+                  <br>
+                  2)Using the Mask Classification Model trained on Edge Impulse and the MobileNet V1 Architecture, determine if an employee or a person is wearing a mask.
+                  <br>
+                  3)UART connectivity is used to send predictions to M5Core2.
+                  <br>
+                  4)Then Check the pulse rate using the Pulse Sensor and send it to the M5Core2 for display on the screen.
+                  <br>
+                  5)The Temperature sensor will determine the body temperature and send it to the M5Core2 for display on the screen.
+                  <br>
+                  6)If the findings demonstrate that the person is not healthy, the case will be transmitted to admin using AWS IoT and SMTP via SES.
+              </p>
+            </div>
+            <div class="general-info">
+              <ul>
+                <li>Created - <span>September 2021</span></li>
+                <li>technologies used - <span>Html, Css, Firebase, Python, Machine Learning, Deep Learning, IoT, Sensors.</span></li>
+                <li>Role - <span>Frontend, Machine Learning model, Device design.</span></li>
+                <li>Team: <span> <b>Guide - </b>Dr. Sonal Gore <br> Mohit Gandhi, Aniket Dhole, Shrishail Kumbhar, Harsh Singhal</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Portfolio Item End -->
+        <!-- Portfolio Item Start -->
+        <div class="portfolio-item">
+          <div class="portfolio-item-thumbnail">
+            <img src="img/portfolio/2.jpg" alt="portfolio item thumb">
+          </div>
+          <h3 class="portfolio-item-title">Two Way Sign Language Translate</h3>
+          <button type="button" class="btn view-project-btn">view project</button>
+          <div class="portfolio-item-details">
+            <div class="description">
+              <p> 
+                <b><u>Inspiration:</u></b>There are 466 million persons in the world with disabling hearing loss (6.1% of the world’s population) , I have created this app for them and their family so that they can communicate easily. This will allow a person with hearing loss and person who doesn’t
+                 knows Sign language to communicate to each other easily. We were also inspired from Hana’s ASL workshop.
+                <br>
+                <br>
+                <b><u>Goals:</u></b><br> 1) Take Voice from User and Convert it to Sign Language in form of a GIF<br>
+                2) It will Take Video from User and convert the Sign Language in Video to Voice using Machine Learning<br>
+                <b><u>Goals Achieved:</u></b>
+                1) Successfully created a Multifeatured Desktop App
+                <br>
+                2) Got Accuracy of 95% in predicting Sign Language
+                <br>
+                <br>
+                <b><u>Working:</u></b>
+                  <br>
+                  a)<u>VOICE/TEXT TO SIGN LANGUAGE CONVERSION:</u>
+                  <br>
+                  <br>
+                  1)Scraping Data from Giphy using Chrome Extension
+                  <br>
+                  2)Then filtered the gif files and added names to it and Also added gif files of single alphabets
+                  <br>
+                  3)Took Voice/Text input from user and split into words and checked if it is present in the GIF filenames. If it is not present then use the Alphabet GIFs for making up words.
+                  <br>
+                  4)Finally Displayed it onto Tkinter App
+                  <br>
+                  <br>
+                  b)<u>SIGN LANGUAGE TO VOICE/TEXT CONVERSION:</u>
+                  <br>
+                  <br>
+                  1)Used the ASL Dataset on Kaggle of Alphabets and Created a CNN algorithm in Tensorflow and trained the model for small data.
+                  <br>
+                  2)Used Live Webcam feed of user hand and predicted the Alphabet from a Region of Interest. 
+                  <br>
+                  3)Finally Displayed it onto Tkinter App
+              </p>  
+            </div>
+            <div class="general-info">
+              <ul>
+                <li>Created - <span>Dec 2020</span></li>
+                <li>Team: Mohit Gandhi, Aniket Dhole, Shrishail Kumbhar, Vaishnavi Thakur</span></li>
+                <li>technologies used - <span>Python, Tkinter, Tensorflow, Scraping , Keras</span></li>
+                <li>Role - <span>Machine Learning model and Basic of Tkinter</span></li>
+                <li>View Online - <span><a href="https://devpost.com/software/two-way-sign-language-translate" target="_blank">https://devpost.com/software/two-way-sign-language-translate</a></span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Portfolio Item End -->
+        <!-- Portfolio Item Start -->
+        <div class="portfolio-item">
+          <div class="portfolio-item-thumbnail">
+            <img src="img/portfolio/3.jpg" alt="portfolio item thumb">
+          </div>
+          <h3 class="portfolio-item-title">Coding-Kid</h3>
+          <br>
+          <button type="button" class="btn view-project-btn">view project</button>
+          <div class="portfolio-item-details">
+            <div class="description">
+              <p>
+                <b><u>Purpose:</u></b> In today’s world, the computer field is proliferating in Artificial Intelligence, Machine Learning, Neural Network, Blockchain, Web Development, Software Development,
+                 etc. But to succeed in these domains, everyone has to have basic knowledge of coding and the various languages required to build their skillset, and an immense amount of practice is needed. So here we are, coming up with a platform Coding-kid that will help users to solve puzzles, develop their coding skills by practicing different types of coding puzzles and improving their skills like algorithms, data structures, etc. And get hired in renowned companies or set up their own.
+                <br>
+                <br>
+                <b><u>Features:</u></b><br> 1) Online Platform to solve puzzles with leaderboard<br>
+                2)Responsive Web App<br>
+              </p>
+            </div>
+            <div class="general-info">
+              <ul>
+                <li>Created - <span>August 2020</span></li>
+                <li>technologies used - <span>ReactJS, Firebase, Nodejs, Html, Css, JavaScript</span></li>
+                <li>Role - <span>Frontend, Database</span></li>
+                <li>Team - <span>Mohit Gandhi, Aniket Dhole, Shrishail Kumbhar</span></li>
+                <li>View Online - <span><a href="https://coding-kid.web.app/" target="_blank">https://coding-kid.web.app/</a></span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Portfolio Item End -->
+        <!-- Portfolio Item Start -->
+        <div class="portfolio-item">
+          <div class="portfolio-item-thumbnail">
+            <img src="img/portfolio/4.jpg" alt="portfolio item thumb">
+          </div>
+          <h3 class="portfolio-item-title">Mango Plant Disease Detection</h3>
+          <button type="button" class="btn view-project-btn">view project</button>
+          <div class="portfolio-item-details">
+            <div class="description">
+              <p>Nowadays Agriculture is facing lots of issues which in turn affect production yields. One of the major problems faced by farmers is plant disease which needs to be solved in an early stage otherwise it will affect the whole plant. 
+                I have a Mango Farm for about 50-60 trees at my native place, which are prone to diseases like powdery mildew, anthracnose, die back, blight, red rust,
+                sooty mould, etc. and once it gets affected to one plant it keeps spreading.I and my team have also surveyed various deep learning algorithms are used to detect the plant disease early by using technology.
+                To avoid this I have created a Machine Learning Model to detect if plant is unhealthy or not using images of leaves .</p>
+            </div>
+            <div class="general-info">
+              <ul>
+                <li>Created - <span>November 2020</span></li>
+                <li>technologies used - <span>Python</span></li>
+                <li>Team - <span>Mohit Gandhi, Aniket Dhole, Shrishail Kumbhar, Harsh Singhal</span></li>
+                <li>View Online - <span><a href="https://github.com/MOHIT02082000/mango-disease-identification" target="_blank">Code Link</a></span></li>
+                <li>Report - <span><a href="https://drive.google.com/file/d/1IWSQepDXbeles02FRErqcYlBTZGg4M28/view?usp=share_link" target="_blank">Report</a></span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Portfolio Item End -->
+        <!-- Portfolio Item Start -->
+        <div class="portfolio-item">
+          <div class="portfolio-item-thumbnail">
+            <img src="img/portfolio/5.jpg" alt="portfolio item thumb">
+          </div>
+          <h3 class="portfolio-item-title">PeerCode</h3>
+          <button type="button" class="btn view-project-btn">view project</button>
+          <div class="portfolio-item-details">
+            <div class="description">
+              <p><b><u>Purpose: </u></b> today’s world, the computer field is proliferating in Artificial Intelligence, Machine Learning, Neural Network, Blockchain, Web Development, Software Development, etc. But to succeed in these domains, everyone has to have basic knowledge of coding and the various languages required to build their skillset, and an immense amount of practice is needed. So here we are, coming up with a platform Coding-kid that will help users develop their coding skills by practicing different types of coding statements and improving their skills like algorithms, data structures, etc. And get hired in renowned companies or set up their own.
+                The idea behind this project is to enhance my problem-solving ability. 
+                <br>
+                <br>
+                <b><u>Features:</u></b><br>
+                1)To make an Online Code Judge System that will allow users to code Online and get results immediately.<br>
+                2)To provide Interview and Practice Coding Questions to Ace Algorithm and Data Structures Skills.<br>
+                3)To provide a simple platform so that children can also participate and get knowledge of programming hence called Coding-Kid.<br>
+                4)There will also be Weekly Contests on our Platform so that users can get insight into how actual Coding Interview Rounds work.</p>
+            </div>
+            <div class="general-info">
+              <ul>
+                <li>Created - <span>November 2020</span></li>
+                <li>technologies used - <span>ReactJS, NodeJs, Firebase,Html, Css, Javascript</span></li>
+                <li>Role - <span>Frontend, Firebase, Backend</span></li>
+                <li>Team - <span>Mohit Gandhi, Aniket Dhole, Shrishail Kumbhar</span></li>
+                <li>View Online - <span><a href="https://peer-code.web.app/" target="_blank">https://peer-code.web.app/</a></span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Portfolio Item End -->
+        <!-- Portfolio Item Start -->
+        <div class="portfolio-item">
+          <div class="portfolio-item-thumbnail">
+            <img src="img/portfolio/6.jpg" alt="portfolio item thumb">
+          </div>
+          <h3 class="portfolio-item-title">Covid-19 Statistics</h3>
+          <button type="button" class="btn view-project-btn">view project</button>
+          <div class="portfolio-item-details">
+            <div class="description">
+              <p>Coronavirus (COVID-19) live Dashboard with Data from API - HTML CSS JavaScript. 
+                The aim of this project is to keep people updated about the current status of the spread of the virus around the globe.
+                 We can view the total number of cases,recovered cases,deaths for the current day for any given country.
+                 Data fetched from : CORONAVIRUS COVID19 API.</p>
+            </div>
+            <div class="general-info">
+              <ul>
+                <li>Created - <span>June 2020</span></li>
+                <li>technologies used - <span>Html, Css, JavaScript</span></li>
+                <li>Code - <span><a href="MOHIT02082000/Covid19Tracker" target="_blank">https://github.com/MOHIT02082000/Covid19Tracker</a></span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Portfolio Item End -->
+      </div>
+    </div>
+  </section>
+  <!-- Portfolio Section End -->
 
-      <!--Skills Section-->
-      <div class="row" id="skills">
-        <div class="skills tab-content active">
-          <div class="row">
-            <!--skills item start-->
-            <div class="skill-item">
-              <p>C++</p>
-              <div class="progress inner-shadow">
-                <div class="progress-bar" style="width: calc(80% - 14px);">
-                  <span>80%</span>
-                </div>
-              </div>
+
+  <section class="portfolio-section sec-padding" id="research">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Research</h2>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Research Item Start -->
+        <div class="portfolio-item">
+          <div class="portfolio-item-thumbnail">
+            <img src="img/portfolio/7.jpg" alt="project1 item thumb">
+          </div>
+          <h3 class="portfolio-item-title"><i>Patent</i> - IOT BASED PORTABLE HEALTH MONITORING SYSTEM USING EDGE COMPUTING</h3>
+          <button type="button" class="btn view-project-btn">view</button>
+          <div class="portfolio-item-details">
+            <div class="description">
+              <p>
+                Due to social distancing norms, several restrictions have been established in public settings due to the COVID-19 
+                pandemic. In offices and schools, there are no automated systems or procedures for managing large groups of people.
+                 Some systems use camera footage of workspaces to verify whether individuals are wearing masks, and temperature 
+                 checks are done manually by designated authorities and processed on massive servers. The paper contains a proposed 
+                 prototype of a portable device that can manage if individuals entering the workspace are wearing masks, and have 
+                 an appropriate heart pulse rate using M5Stack Core2, ESP32 Camera Module, and distance sensors. For optimization 
+                 and fast Mask Detection Model which will run entirely on the device, Tensorflow Lite and Edge Computing are used. 
+                 The mask detection model achieves an accuracy of 87.8%. Here the focus was on edge computing with limited RAM usage
+                  and with an optimized MobileNetV1 model. 
+              </p>
             </div>
-            <div class="skill-item" >
-              <p>Python</p>
-              <div class="progress inner-shadow">
-                <div class="progress-bar" style="width: calc(75% - 14px);">
-                  <span>75%</span>
-                </div>
-              </div>
+            <div class="general-info">
+              <ul>
+                <li><b>India - Intellectual Property (Application ID : 202221028427)</b></li>
+                <li>Status - <span>Published (June 2022)</span></li>
+                <li>Team: <span> <b>Guide - </b>Dr. Sonal Gore <br> Mohit Gandhi, Aniket Dhole, Shrishail Kumbhar, Harsh Singhal</span></li>
+              </ul>
             </div>
-            <div class="skill-item">
-              <p>JavaScript</p>
-              <div class="progress inner-shadow">
-                <div class="progress-bar" style="width: calc(50% - 14px);">
-                  <span>50%</span>
-                </div>
-              </div>
-            </div>
-            <div class="skill-item">
-              <p>HTML/CSS</p>
-              <div class="progress inner-shadow">
-                <div class="progress-bar" style="width: calc(85% - 14px);">
-                  <span>85%</span>
-                </div>
-              </div>
-            </div>
-            <div class="skill-item">
-              <p>MySQL</p>
-              <div class="progress inner-shadow">
-                <div class="progress-bar" style="width: calc(60% - 14px);">
-                  <span>60%</span>
-                </div>
-              </div>
-            </div>
-            <div class="skill-item">
-              <p>MongoDB</p>
-              <div class="progress inner-shadow">
-                <div class="progress-bar" style="width: calc(50% - 14px);">
-                  <span>50%</span>
-                </div>
-              </div>
-            </div>
-            <!--skill items end-->
-            <!--experience start-->
-            <div class="row" id="experience">
-              <div class="experience tab-content active">
-                <div class="row">
-                  <div class="timeline">
-                    <div class="row">
-                      <!--timeline start-->
-                      <div class="timeline-item">
-                        <div class="timeline-item-inner outer-shadow">
-                          <i class="fas fa-briefcase icon"></i>
-                          <span>Aug,2021 - Nov,2021</span>
-                          <h3>Data Science Intern</h3>
-                          <h4>Hamoye.com, India</h4>
-                          <p>Mastered various concepts like Python in Machine Learning, Regression, Classification, Image Recognition and Object
-                            Detection, Neural Networks, Data Analysis. Worked on capstone project “Global Prediction of Food Prices”, “Stock Prediction of S&P 500” using regressive data
-                            analysis and training various Machine Learning models for better efficiency and results.</p>
-                        </div>
-                      </div>
-                      <div class="timeline-item">
-                        <div class="timeline-item-inner outer-shadow">
-                          <i class="fas fa-briefcase icon"></i>
-                          <span>June,2021 - Aug,2021</span>
-                          <h3>Academic Intern</h3>
-                          <h4>Persistent Systems, India</h4>
-                          <p>In-depth knowledge of computer science core subjects like Data Structure, Computer Architecture, Programming Languages(Python and C++), Databases, Computer Networks through live virtual training & its use in real-life problems</p>
-                        </div>
-                      </div>
-                      <!--timeline end-->
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--experience end-->
-            <!--education start-->
-            <div class="row" id="education">
-              <div class="education tab-content active">
-                <div class="row">
-                  <div class="timeline">
-                    <div class="row">
-                      <!--timeline start-->
-                      <div class="timeline-item">
-                        <div class="timeline-item-inner outer-shadow">
-                          <i class="fas fa-graduation-cap icon"></i>
-                          <span>July,2018 - Present</span>
-                          <h3>Bachelor of Enigeering Computer Engineering</h3>
-                          <h4>Pimpri Chinchwad College of Engineering, India</h4>
-                          <p><span style="font-weight: bold; color: black;">CGPA: 9.34/10</span>Studied- Advanced Data Structures, Web Technology, Theory of Computation, Software Engineering and Project
-                            Management, Data Analytic, Artificial Intelligence and Robotics.</p>
-                        </div>
-                      </div>
-                      <div class="timeline-item">
-                        <div class="timeline-item-inner outer-shadow">
-                          <i class="fas fa-graduation-cap icon"></i>
-                          <span>June,2016 - May,2018</span>
-                          <h3>Junior College</h3>
-                          <h4>Ashoka Vidyalaya & Junior College, India</h4>
-                          <p><span style="font-weight: bold; color: black;">HSC- 69%</span></p>
-                        </div>
-                      </div>
-                      <div class="timeline-item">
-                        <div class="timeline-item-inner outer-shadow">
-                          <i class="fas fa-graduation-cap icon"></i>
-                          <span>June,2011 - March,2016</span>
-                          <h3>Secondary School</h3>
-                          <h4>St. Ursula High School</h4>
-                          <p><span style="font-weight: bold; color: black;" >SSC- 91%</span></p>
-                        </div>
-                      </div>
-                      <!--timeline end-->
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--education end-->
+          </div>
+        </div>
+      <!--End-->
+      <!--Research 2-->
+      <div class="portfolio-item">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/portfolio/8.jpg" alt="portfolio item thumb">
+        </div>
+        <h3 class="portfolio-item-title">Parallel and Edge Computing Techniques for Computer Vision Models on Embedded Devices</h3>
+        <button type="button" class="btn view-project-btn">view</button>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>Nowadays, running computer vision models on embedded devices like Raspberry Pi and Nvidia Jetson has become
+               ubiquitous. But the main issue is the limited performance on these devices due to smaller CPUs and power factors. 
+               To solve this, we have proposed research on various parallel processing techniques to get complete optimal 
+               performance of computer vision models like GoogleNet, Squeezenet, and Mobilenet on a Raspberry Pi using OpenVino 
+               Toolkit. We tested and compared these models' interpretation on factors like CPU, RAM Utilization, and Inference Time
+                using Two Neural Compute Sticks and analyzed it on different Intel Processors. The results using Two Neural Sticks 
+                were significant than typical processors and increased by a factor of 2 to 3 for all models. So using these results,
+                 we can directly use the technique for the suitable model.</p>
+          </div>
+          <div class="general-info">
+            <ul>
+              <li><b>Springer- International conference on Emerging trends and Innovations in ICT (ICEI)</b></li>
+              <li>Status : <span>Accepted (November 2021)</span></li>
+              <li>Team - <span>Mohit Gandhi, Aniket Dhole, Shrishail Kumbhar</span></li>
+            </ul>
           </div>
         </div>
       </div>
-      <!--Skills Section-->
+      <!--End-->
+      <!--Research 3-->
+      <div class="portfolio-item">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/portfolio/9.jpg" alt="portfolio item thumb">
+        </div>
+        <h3 class="portfolio-item-title">Review of Deep Learning Models for Mask Detection and Medical Sensors for IoT based Health Care System</h3>
+        <button type="button" class="btn view-project-btn">view</button>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>The growth of medical sensors like heart rate,blood sugar, and other health monitoring sensors is huge.Along with
+               the use of sensors in devices and healthcare systems, the use of image classification models like mask detection on 
+               edge devices is of growing demand. The survey consists of various techniques used in modern healthcare devices and 
+               various other methods like sensor fusion and wireless sensors to collect and monitor health data. And it also 
+               includes a comparison of multiple mask detection models which were deployed on embedded devices like Raspberry Pi, 
+               Nvidia Jetson and cameras like OpenMV, ESP32Cam and deep learning models like MobileNetV1, InceptionV4, and 
+               YOLO Tiny which were optimized using TensorFlow Lite.</p>
+          </div>
+          <div class="general-info">
+            <ul>
+              <li><b>IEEE International Conference on Computational Intelligence and Computing Applications-21</b></li>
+              <li>Status : <span>Published (October 2021)</span></li>
+              <li>Team - <span>Mohit Gandhi, Aniket Dhole, Shrishail Kumbhar,Harsh Singhal,Dr. Sonal Gore</span></li>
+              <li>Paper Link - <span><a href="https://ieeexplore.ieee.org/document/9697230" target="_blank">View Paper</a></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--End-->
+      <!--Research 4-->
+      <div class="portfolio-item">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/portfolio/10.jpg" alt="portfolio item thumb">
+        </div>
+        <h3 class="portfolio-item-title"><i>Book Chapter</i> - Topical Survey on Computing Solutions for Plant Disease Classification using Deep Learning Techniques</h3>
+        <button type="button" class="btn view-project-btn">view</button>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>A major problem in agriculture is plant disease that is not recognized in the early stages, due to which, 
+              the people working in this industry face resulting losses, such as lost income, loss of time and effort, etc.
+               We have surveyed different hardware implementations of plant disease detection on embedded devices, such as 
+               the Raspberry Pi, field-programmable gate arrays (FPGAs) with very large scale integration (VLSI), and ARM processors
+                that use frameworks such as TinyML and TFLite. And studied and analyzed major deep learning algorithms and 
+                techniques, such AlexNet, long short-term memory (LSTM), LeNet-5, and ResNet, which have been used for plant 
+                disease detection.</p>
+          </div>
+          <div class="general-info">
+            <ul>
+              <li><b>Advances in Image and Data Processing using VLSI Design</b></li>
+              <li>Status : <span>Published (May 2021)</span></li>
+              <li>Team - <span>Mohit Gandhi, Aniket Dhole, Shrishail Kumbhar,Harsh Singhal,Dr. Sonal Gore</span></li>
+              <li>Paper Link - <span><a href="https://iopscience.iop.org/book/edit/978-0-7503-3919-3/chapter/bk978-0-7503-3919-3ch6" target="_blank">View Chapter</a></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--End-->
+      </div>
+    </div>
+  </section>
 
+  
+  <!--Awards Section Start-->
+  <section class="portfolio-section sec-padding" id="awards">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Awards</h2>
+        </div>
+      </div>
+      <div class="row">
 
+        <!--Award 1-->
+        <div class="portfolio-item">
+          <div class="portfolio-item-thumbnail">
+            <img src="img/portfolio/Award1.jpg" alt="portfolio item thumb">
+          </div>
+          <div class="award">
+            <h3 class="portfolio-item-title">HackMed UK Hackthon 2021</h3>
+          </div>
+          
+          <br>
+        </div>
+        <!-- award 1 End --> 
 
-
+        <!--Award 2-->
+        <div class="portfolio-item">
+          <div class="portfolio-item-thumbnail">
+            <img src="img/portfolio/Award2.jpg" alt="portfolio item thumb">
+          </div>
+          <div class="award">
+            <h3 class="portfolio-item-title">HackAccessibility Hackathon 2021</h3>
+          </div>
+          
+          <br>
+        </div>
+        <!-- award 2 End --> 
+    
+        <!--Award 3-->
+        <div class="portfolio-item">
+          <div class="portfolio-item-thumbnail">
+            <img src="img/portfolio/Award3.jpg" alt="portfolio item thumb">
+          </div>
+          <div class="award3 ">
+            <h3 class="portfolio-item-title">AbradacabraHacks Hackathon 2021</h3>
+          </div>
+          
+          <br>
+        </div>
+        <!-- award 3 End --> 
+      </div>
     </div>
   </section>
 
 
+  <!--Awards Section End-->
 
+  <!-- Contact Section Start -->
+  <section class="contact-section sec-padding" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>contact</h2>
+        </div>
+      </div>
+      <div class="row">
+        <!-- <div class="contact-form">
+          <form>
+            <div class="row">
+              <div class="input-group">
+                <input type="text" placeholder="Name" class="input-control" required>
+              </div>
+              <div class="input-group">
+                <input type="text" placeholder="Email" class="input-control" required>
+              </div>
+              <div class="input-group">
+                <input type="text" placeholder="Subject" class="input-control" required>
+              </div>
+              <div class="input-group">
+                <textarea placeholder="Message" class="input-control" required></textarea>
+              </div>
+              <div class="submit-btn">
+                <button type="submit" class="btn">send message</button>
+              </div>
+            </div>
+          </form>
+        </div> -->
+      <div class="contactinformation">
+        <div class="contact-info">
+          <div class="contact-info-item">
+            <h3>Email</h3>
+            <p>mohit.gandhi082@gmail.com</p>
+          </div>
+          <!-- <div class="contact-info-item">
+            <h3>Phone</h3>
+            <p>+1(716)403-9992</p>
+          </div> -->
+          <div class="contact-info-item">
+            <h3>Profiles</h3>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/mohit-gandhi-296255170/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/MOHIT02082000" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://scholar.google.com/citations?user=DS-iZD4AAAAJ&hl=en" target="_blank"><i class="fab fa-google"></i></a>
+              <a href="https://twitter.com/MohitGandhi28" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="https://medium.com/@mohitgandhi28" target="_blank"><i class="fab fa-medium-m"></i></a>
+              <a href="https://www.researchgate.net/profile/Mohit-Gandhi-6" target="_blank"><i class="fab fa-researchgate"></i></a>
+              <a href="https://www.instagram.com/mgandhi0208/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Section End -->
 
+  <div class="foot">
+  <div class="footer_copyright">
+		<span>© 2022 Mohit Gandhi</span>
+	</div>
+</div>
 
+</div>
+<!-- Main End -->
 
-
-
-
-
-  <!-- About Me -->
-
-
-
-
-
+<!-- Portfolio Item Details Popup Start -->
+<div class="portfolio-popup">
+  <div class="pp-inner">
+    <div class="pp-content">
+      <div class="pp-header">
+        <button type="button" class="btn pp-close"><i class="fas fa-times"></i></button>
+        <div class="pp-thumbnail">
+          <img src="img/portfolio/3.jpg" alt="pp-thumbnail">
+        </div>
+        <h3></h3>
+      </div>
+      <div class="pp-body">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Item Details Popup End -->
 
   
-
-<!-- main js -->
-<script src="js/main.js"></script>
-<!-- style switcher js -->
-<script src="js/style-switcher.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
-
